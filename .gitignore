@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Lab 21 generated training artifacts
+# Keep lightweight deliverables in git, but avoid committing heavy/resumable checkpoints.
+content/lab21_lora_t4/**/checkpoint-*/
+content/lab21_lora_t4/**/optimizer.pt
+content/lab21_lora_t4/**/scheduler.pt
+content/lab21_lora_t4/**/rng_state.pth
+content/lab21_lora_t4/**/scaler.pt
+content/lab21_lora_t4/**/trainer_state.json
+content/lab21_lora_t4/**/training_args.bin
+
+# Tokenizer files are already available from the base model; adapter submission only needs config + weights.
+content/lab21_lora_t4/**/tokenizer.json
+content/lab21_lora_t4/**/tokenizer_config.json
+content/lab21_lora_t4/**/chat_template.jinja
+content/lab21_lora_t4/**/README.md
+
+# Option A submits only the best adapter. Keep r16, ignore extra adapter folders by default.
+content/lab21_lora_t4/r8/
+content/lab21_lora_t4/r64/

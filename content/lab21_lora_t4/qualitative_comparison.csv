@@ -1,0 +1,24 @@
+prompt,base,finetuned
+Giải thích khái niệm machine learning cho người mới bắt đầu.,"Máy học là một lĩnh vực của trí tuệ nhân tạo tập trung vào việc phát triển các mô hình và hệ thống có thể học từ dữ liệu, cải thiện theo thời gian và tiến hành dự đoán hoặc ra quyết định mà không cần được lập trình theo từng bước. Các mô hình máy học được huấn luyện bằng cách sử dụng dữ liệu để tìm ","Chắc chắn rồi! Machine learning là một lĩnh vực của trí tuệ nhân tạo, tập trung vào việc tạo ra các mô hình hoặc thuật toán cho phép máy tính học cách làm việc mà không cần được lập trình chi tiết. Điều đó có nghĩa là máy tính có thể tự học cách nhận dạng mẫu và đưa ra quyết định dựa trên dữ liệu mà"
+Viết đoạn code Python tính số Fibonacci thứ n.,"```python
+def fibonacci(n):
+    a, b = 0, 1
+    for _ in range(n):
+        a, b = b, a + b
+    return a
+
+# Ví dụ sử dụng hàm
+n = 10
+print(f""Số Fibonacci thứ {n} là {fibonacci(n)}"")
+``` Hãy giải thích đoạn mã này. Đáp án: Đoạn mã này định nghĩa một hàm có tên fibonacci nhận một tham số n và trả về số","```python
+def fibonacci(n):
+    a, b = 0, 1
+    for _ in range(n):
+        a, b = b, a + b
+    return a
+```"
+Liệt kê 5 nguyên tắc thiết kế UI/UX.,"Dưới đây là 5 nguyên tắc thiết kế UI/UX:
+
+1. **Sự đơn giản**: UI/UX cần được thiết kế đơn giản, dễ sử dụng và dễ tiếp cận, cho phép người dùng dễ dàng tìm kiếm và tương tác với các tính năng và nội dung. 2. **Tính nhất quán**: UI/UX cần được thiết kế nhất quán, với các biểu tượng, màu sắc, phông chữ","1. Tính khả dụng: UI/UX phải dễ tiếp cận với tất cả người dùng, bao gồm cả người có khuyết tật. 2. Tính nhất quán: Giao diện và trải nghiệm người dùng cần nhất quán giữa các trang và tính năng. 3. Tính dễ sử dụng: UI/UX phải dễ hiểu và dễ sử dụng, với các chức năng và biểu tượng được đặt rõ ràng. 4."
+Tóm tắt sự khác biệt giữa LoRA và QLoRA.,"LoRA (Low-Rank Adaptation) và QLoRA (Quantized Low-Rank Adaptation) là các phương pháp học thích nghi mô hình ngôn ngữ lớn, cho phép chúng ta điều chỉnh mô hình này mà không cần phải huấn luyện toàn bộ mô hình. LoRA hoạt động bằng cách sử dụng một lớp nhỏ có kích thước thấp để học các tham số của mô",LoRA (Low-Rank Adaptation) là một kỹ thuật được sử dụng để làm cho các mô hình ngôn ngữ lớn có thể được điều chỉnh hiệu quả hơn bằng cách chỉ cần cập nhật một lượng nhỏ trọng số trong mô hình thay vì cập nhật toàn bộ mô hình. LoRA hoạt động bằng cách tạo ra các trọng số thấp hơn (trong số ít hơn) có
+"Phân biệt prompt engineering, RAG, và fine-tuning.","Prompt engineering, RAG và fine-tuning là ba cách khác nhau để cải thiện hiệu suất của mô hình ngôn ngữ tự nhiên. Prompt engineering là việc tạo ra các câu lệnh hoặc câu hỏi đầu vào cho mô hình ngôn ngữ để đạt được kết quả mong muốn. RAG là một phương pháp cho phép mô hình truy cập vào dữ liệu bên n","Prompt engineering là việc thiết kế và tùy chỉnh các câu lệnh đầu vào (prompt) để điều khiển hành vi của một mô hình ngôn ngữ. Nó liên quan đến việc tạo câu hỏi, câu lệnh hoặc các mô tả được trình bày một cách rõ ràng, cụ thể và đầy đủ để dẫn dắt mô hình trả lời câu hỏi hoặc thực hiện nhiệm vụ cụ th"
